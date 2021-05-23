@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\YazilimTestiProje\Bank.cpp" />
+    <ClCompile Include="..\YazilimTestiProje\Order.cpp" />
+    <ClCompile Include="..\YazilimTestiProje\Portfolio.cpp" />
+    <ClCompile Include="..\YazilimTestiProje\Stock.cpp" />
+    <ClCompile Include="..\YazilimTestiProje\User.cpp" />
+    <ClCompile Include="..\YazilimTestiProje\UserStock.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="StockIntegrationTest.cpp">
+      <Filter>IntegrationTests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BankTest.cpp">
+      <Filter>UnitTests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOperationsTest.cpp">
+      <Filter>UnitTests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderTest.cpp">
+      <Filter>UnitTests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PortfolioTest.cpp">
+      <Filter>UnitTests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StockOperationsTest.cpp">
+      <Filter>UnitTests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StockTest.cpp">
+      <Filter>UnitTests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UserStockTest.cpp">
+      <Filter>UnitTests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UserTest.cpp">
+      <Filter>UnitTests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UserStockIntegrationTest.cpp">
+      <Filter>IntegrationTests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BankIntegrationTest.cpp">
+      <Filter>IntegrationTests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PortfolioIntegrationTest.cpp">
+      <Filter>IntegrationTests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\YazilimTestiProje\FileOperations.cpp" />
+    <ClCompile Include="..\YazilimTestiProje\StockOperations.cpp" />
+    <ClCompile Include="OrderIntegrationTest.cpp">
+      <Filter>IntegrationTests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInegrationTest.cpp">
+      <Filter>IntegrationTests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StokcOperationsIntegrationTest.cpp">
+      <Filter>IntegrationTests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOperationsIntegrationTest.cpp">
+      <Filter>IntegrationTests\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="StockIntegrationTest.h">
+      <Filter>IntegrationTests\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOperationsTest.h">
+      <Filter>UnitTests\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderTest.h">
+      <Filter>UnitTests\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PortfolioTest.h">
+      <Filter>UnitTests\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StockOperationsTest.h">
+      <Filter>UnitTests\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StockTest.h">
+      <Filter>UnitTests\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UserStockTest.h">
+      <Filter>UnitTests\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UserTest.h">
+      <Filter>UnitTests\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BankTest.h">
+      <Filter>UnitTests\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UserStockIntegrationTest.h">
+      <Filter>IntegrationTests\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BankIntegrationTest.h">
+      <Filter>IntegrationTests\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PortfolioIntegrationTest.h">
+      <Filter>IntegrationTests\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YazilimTestiProje\json.hpp" />
+    <ClInclude Include="OrderIntegrationTest.h">
+      <Filter>IntegrationTests\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInegrationTest.h">
+      <Filter>IntegrationTests\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOperationsIntegrationTest.h">
+      <Filter>IntegrationTests\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StokcOperationsIntegrationTest.h">
+      <Filter>IntegrationTests\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="IntegrationTests">
+      <UniqueIdentifier>{ef45c865-74af-4ee7-a2cc-9cfcd70540e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IntegrationTests\Headers">
+      <UniqueIdentifier>{7bd8d4c6-41a7-4e1d-a2df-58e9b9dff995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IntegrationTests\Source">
+      <UniqueIdentifier>{86c7e2eb-a6bf-4304-9592-ab0e90269133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests">
+      <UniqueIdentifier>{6f28481a-b7dc-42c3-9aac-d0f438875923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Headers">
+      <UniqueIdentifier>{83e83504-bd7d-4ddb-aa7d-7c50ff1183cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests\Source">
+      <UniqueIdentifier>{8bc9d70a-6003-40b7-9cbe-b7b087e735a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
